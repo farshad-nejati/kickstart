@@ -16,7 +16,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var web3 = void 0;
 
 if (typeof window !== 'undefined' && typeof window.web3 !== 'undefined') {
-    // we are in the browser and metamast is running
+    // we are in the browser and metamask is running
     web3 = new _web2.default(window.web3.currentProvider);
 } else {
     // We are on the server *OR* the user is not running metamask
