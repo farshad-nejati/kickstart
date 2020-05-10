@@ -8,5 +8,5 @@ first project using solidity and smart contract
 > git clone https://github.com/farshad-nejati/Kickstart.git
 > cd Kickstart
 > npm install
-> npm run start
+> npm run dev
 ```
